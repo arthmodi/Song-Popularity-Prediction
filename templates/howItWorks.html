@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>How It Works - Song Popularity Predictor</title>
+    <link rel="icon" type="image/x-icon" href="./images/w_br_logo.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.4/font/bootstrap-icons.min.css"
+      integrity="sha512-yU7+yXTc4VUanLSjkZq+buQN3afNA4j2ap/mxvdr440P5aW9np9vIr2JMZ2E5DuYeC9bAoH9CuCR7SJlXAa4pg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+      :root {
+        --color-bg: #1f1f38;
+        --color-bg-variant: #2c2c6c;
+        --color-primary: #4db5ff;
+        --color-primary-variant: rgba(77, 181, 255, 0.4);
+        --color-white: #fff;
+        --color-light: rgba(255, 255, 255, 0.6);
+
+        --container-width-lg: 75%;
+        --container-width-md: 86%;
+        --container-width-sm: 90%;
+
+        --transition: all 400ms ease;
+      }
+      .how-it-works {
+        line-height: 1;
+        background: rgba(0, 0, 0, 0.3);
+        width: max-content;
+        display: block;
+        padding: 0.7rem 1.7rem;
+        z-index: 2;
+        position: fixed;
+        right: 2rem;
+        top: 2rem;
+        display: flex;
+        gap: 0.8rem;
+        border-radius: 3rem;
+        backdrop-filter: blur(15px);
+        color: var(--color-primary);
+        font-size: 2rem;
+      }
+
+      .how-it-works:hover {
+        cursor: pointer;
+      }
+
+      .how-it-works-container {
+        margin: 5vh 10vw 15vh;
+      }
+
+      .work-information {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+      }
+
+      .work-info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 1rem;
+      }
+
+      .work-info img {
+        text-align: center;
+        height: 70vh;
+        object-fit: contain;
+        border: 4px solid var(--color-bg-variant);
+      }
+      .bg-image {
+        font-family: "Poppins", sans-serif;
+        background: #1f1f38;
+        background-image: url("/images/bg-texture.png");
+      }
+      /* =================Section Title Upper================= */
+      .section-title-upper {
+        text-align: center;
+        color: var(--color-light);
+        font-size: 0.8;
+      }
+
+      /* =================Section Title================= */
+      .section-title {
+        text-align: center;
+        font-size: 3rem;
+        font-weight: bold;
+        margin-bottom: 2rem;
+        color: var(--color-primary);
+      }
+    </style>
+  </head>
+
+  <body class="bg-image">
+    <div class="how-it-works-container">
+      <div class="section-title-upper">Help?</div>
+      <div class="section-title">How It Works</div>
+      <div class="work-information">
+        <div class="work-info">
+          <div class="info-left">
+            <img src="../images/1.jpeg" alt="" />
+          </div>
+          <!-- <div class="info-right">
+            <h1>jklasdgfajklsdgfljk</h1>
+          </div> -->
+        </div>
+        <div class="work-info">
+          <div class="info-left">
+            <img src="../images/2.jpeg" alt="" />
+          </div>
+          <!-- <div class="info-right">
+            <h1>jklasdgfajklsdgfljk</h1>
+          </div> -->
+        </div>
+        <div class="work-info">
+          <div class="info-left">
+            <img src="../images/3.jpeg" alt="" />
+          </div>
+          <!-- <div class="info-right">
+            <h1>jklasdgfajklsdgfljk</h1>
+          </div> -->
+        </div>
+        <div class="work-info">
+          <div class="info-left">
+            <img src="../images/4.jpeg" alt="" />
+          </div>
+          <!-- <div class="info-right">
+            <h1>jklasdgfajklsdgfljk</h1>
+          </div> -->
+        </div>
+        <div class="work-info">
+          <div class="info-left">
+            <img src="../images/5.jpeg" alt="" />
+          </div>
+          <!-- <div class="info-right">
+            <h1>jklasdgfajklsdgfljk</h1>
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+    <nav id="navBar">
+      <a href="../index.html" class="navbar_btn active">
+        <i class="bi bi-house-fill"></i>
+      </a>
+    </nav>
+  </body>
+</html>
